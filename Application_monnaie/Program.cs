@@ -3,9 +3,9 @@ etiquette:
 Console.WriteLine("Veulliez rentrer votre montant");
 double montant;
 montant = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("Choisir une monnaie entre CAD ou USD ou EUR ");
+Console.WriteLine("Choisir une monnaie entre CAD ou USD ou EUR (écrire en majuscule) ");
 string line = Console.ReadLine();
-Console.WriteLine("Chosir si voulez convertir votre montant en EUR ou USD ou CAD");
+Console.WriteLine("Chosir si voulez convertir votre montant en EUR ou USD ou CAD (écrire en majuscule)");
 string line2 = Console.ReadLine();
 
 if (line == "CAD" && line2 == "USD")
